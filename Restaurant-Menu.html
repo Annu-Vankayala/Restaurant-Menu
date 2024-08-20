@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<!-- saved from url=(0039)file:///D:/HTML/project.html#order-form -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+     <title>INDIAN ACCENT- Restaurant Menu</title>
+      <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: Black;
+            padding: 120px;
+            text-align: center;
+        }
+        nav {
+            margin-top: 20px;
+        }
+        nav a {
+            text-decoration: none;
+            margin: 0 20px;
+            color: Tomato;
+            font-weight: bold;
+        }
+        main {
+            padding: 20px;
+            bckground-color:Grey;
+        }
+        article {
+            margin-bottom: 20px;
+            padding: 10px;
+            background-color: #f0f0f0;
+            border-radius: 5px;
+        }
+        form {
+            margin-top: 20px;
+        }
+        footer {
+            background-color: Tomato;
+            color: #fff;
+            text-align: center;
+            padding: 5px;
+            
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+   </head>
+   <body>
+     <header>
+       <img src="./Restaurant-Menu_files/Indian-Accent-Big-Logo.jpg" id="header-img" alt="Indian Accent">
+       <h1> Indian Accent</h1>
+       <nav>
+         <a href="file:///D:/HTML/project.html#menu">Menu</a> | <a href="file:///D:/HTML/project.html#order-form">Order Now</a>
+       
+     </nav></header>
+     <main>
+        <section id="menu">
+            <h2>Menu</h2>
+            <article>
+                <img src="./Restaurant-Menu_files/360_F_582286506_Kji3X5NrZBHMTFSqwG9gADXWMsjrtEjL.jpg" alt="North Indian">
+                <h3>Paneer Butter Masala</h3>
+                <p>Our Paneer Butter Masala dish is made with homemade fresh Paneer. <i>Rs.259/-</i></p>
+            </article>
+            <article>
+                <img src="./Restaurant-Menu_files/Best-biryani-in-Delhi-T.jpg" alt="Main Course">
+                <h3>Hyderbadi Biryani</h3>
+                <p>Fresh Hyderabadi Chicken Dum Biryani. <i>Rs.299/-</i></p>
+            </article>
+            <article>
+                <img src="./Restaurant-Menu_files/ras-malai-placeholder7607" alt="Dessert">
+                <h3>Rasmalai</h3>
+                <p>Royal and Delicious Bengali Dessert. <i>Rs.99/-</i></p>
+            </article>
+        </section>
+        <section id="order-form">
+            <h2>Place Your Order</h2>
+            <form action="file:///D:/HTML/checkout.php" method="POST">
+                <label for="pbm">Paneer Butter Masala (Qty):</label>
+                <input type="number" id="pbm" name="pbm" min="0" value="0"><br><br>
+
+                <label>Choice of Side:</label><br>
+                <input type="checkbox" id="side1" name="side" value="Garlic Naan">
+                <label for="side1"> Garlic Naan</label><br>
+                <input type="checkbox" id="side2" name="side" value="Butter Naan">
+                <label for="side2"> Butter Naan</label><br><br>
+
+                <label for="biryani">Hyderabadi Biryani (Qty):</label>
+                <input type="number" id="biryani" name="biryani" min="0" value="0"><br><br>
+
+                <label for="sweet">Rasmalai Dessert (Qty):</label>
+                <input type="number" id="sweet" name="sweet" min="0" value="0"><br><br>
+
+                <label for="requests">Special Requests:</label><br>
+                <textarea id="requests" name="requests" rows="4" cols="50"></textarea><br>
+
+                <input type="submit" value="Go To Checkout">
+            </form>
+          </section>
+        </main>
+        <footer>
+        <p>Made with love by Annu-Vankayala</p>
+    </footer>
+ 
+</body></html>
